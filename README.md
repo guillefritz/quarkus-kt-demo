@@ -10,7 +10,7 @@
 
 ### exec jar
 
-    java -jar target/mongodb-panache-1.0-SNAPSHOT-runner.jar
+    java -jar target/*-runner.jar
 
 you will see this once it's up:
 
@@ -33,3 +33,6 @@ you will see this once it's up:
     
     curl -X GET http://127.0.0.1:8080/fruits
 
+### find by ID
+    
+    curl -X GET http://127.0.0.1:8080/fruits/1234

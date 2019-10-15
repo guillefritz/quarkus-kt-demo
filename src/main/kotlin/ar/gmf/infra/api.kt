@@ -7,7 +7,7 @@ import javax.ws.rs.*
 import javax.ws.rs.core.MediaType
 
 @Path("/api/fruits")
-class ExampleResource(private val fruitActions: FruitActions) {
+class FruitsApi(private val fruitActions: FruitActions) {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
